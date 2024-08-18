@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url("../page/BG_001.jpg");
+    color: #333;
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Ícono de la barra de navegación */
+.navbar-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url('icon.png'); /* Ruta del ícono */
+    background-size: cover;
+    margin-right: 1rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.navbar ul li {
+    margin: 0;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+}
+
+/* Estilo del contenido principal */
+.content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    font-size: 1.2rem;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

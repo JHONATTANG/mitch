@@ -1,0 +1,49 @@
+HOME
+Background	Motion 1920*1080
+Navbar		1920*109
+	Relleno Degradado 90% 0E0F0F / 282828
+	Ag Roboto Bold 35pt
+	Padding *40
+Footer		1920*180
+	Ag Roboto Light 14pt
+Galeria Acordeón
+	https://blog.ida.cl/desarrollo/acordeon-html-css-personalidad-sitio-web/
+	Recuadro Titulos Opacidad 60%
+	#0000FF / #0047AB / #007FFF / #00CED1 / #87CEEB
+	Ag Montserrat Bold 30pt
+
+
+
+
+
+
+
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 50px;
+        }
+        
+        h1 {
+            color: #31ed18;
+        }
+        
+        p {
+            color: #666;
+        }
+        
+        button {
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
