@@ -5,7 +5,7 @@ const app = express();
 
 const puerto = 3050;
 
-app.use(express.static(path.join(__dirname, '/public')));
+app.use('/home', express.static(path.join(__dirname, '/public')));
 
 app.use((req,res) => {
     res.status(404);
