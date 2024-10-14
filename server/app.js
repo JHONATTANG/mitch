@@ -5,11 +5,11 @@ const app = express();
 
 const puerto = 3050;
 
-app.use('/home', express.static(path.join(__dirname, '/public')));
+app.use('/', express.static(path.join(__dirname, '/public')));
 
 app.use((req,res) => {
     res.status(404);
-    res.send(`<h1>ERROR 404: Page not found</h1><p>Go to the page <a href="https://mitchdigital.online/home">Home</a></p>`)
+    res.send(`<h1>ERROR 404: Page not found</h1><p>Go to the page <a href="https://mitchdigital.online/">Home</a></p>`)
 })
 
 

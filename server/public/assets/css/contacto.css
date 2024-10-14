@@ -1,0 +1,119 @@
+
+@import url(style.css);
+
+
+
+.container-contacto{
+    padding: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    
+    align-items: center;
+}
+
+
+
+.contacto-img{
+    border-radius: 10% 0% 0% 10%;
+    background-image: url("../page/background/Space_1280x1920.jpg");
+    width: 611px;
+    height: 658px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;   
+}
+.contacto-img div{
+    padding: 30px;
+    align-items: center;
+    justify-items: center;  
+    justify-content: center;
+}
+.contacto-img div h1{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    position: relative;
+    text-align: center;
+}
+.contacto-img div h2{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.contacto-formulario{
+    border-radius: 0% 10% 10% 0%;
+    padding: 50px;
+    width: 834px;
+    height: 658px;
+    background-color: rgb(51, 51, 51,0.35);
+}
+.logotipos-texto div h2{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+.logotipos-texto div label{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+
+.line{
+    height: 4px;
+    background: linear-gradient(90deg, rgba(14,165,234,1) 0%, rgba(143,217,239,1) 50%, rgba(143,217,239,0) 100%);
+}
+
+.btn-logotipos button{
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 20pt;
+    
+    background: linear-gradient(90deg, rgb(0, 32, 133, 1) 0%, rgb(0, 141, 255, 1) 50%, rgb(0, 141, 255, 0) 100%);
+    border-color:transparent;
+    border-radius: 40px;
+}  
+.btn-logotipos:hover button{
+    background: linear-gradient(90deg, rgb(0, 32, 133, 1) 0%, rgb(0, 141, 255, 1) 50%, rgb(0, 141, 255, 0) 100%);
+    border-color:transparent;
+    transition: 1s;
+    color:#ffffff;
+    font-size: 25pt;
+}
+
+
+
+
+
+.form-content{
+    display: flex;
+}
+.form-content-label{
+    width: 30%;
+}
+.form-content-input input{
+    justify-content: end;
+    align-content: end;
+    width: 250px;
+    background-color: #eee;
+    /*border: 0;*/
+    outline: none;
+    border-radius: 5px;
+   border: 1px solid #39c;
+}
+
+
+
