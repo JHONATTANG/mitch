@@ -1,29 +1,11 @@
-/* Estilos generales */
+
+/* Estilos Generales */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    background-color: #f4f4f4;
-    
-}
-
-
-
-
-
-a {
-    text-decoration: none;
-}
-/*background-image: url("../page/BG_001.jpg");*/
-
-.container {
-    width: 1040px;
-    padding: 0 20px;
-}
+}   
 
 #background-video {
     width: 100vw;
@@ -37,39 +19,11 @@ a {
     z-index: -1;
  }
 
-
-
- 
-
-/*
-section {
-    background: #d9d7d5;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  } 
-div {
-    background: #767775;
-    flex-basis: 100%;
-    height: 100px;
-    margin-bottom: 0.5rem;
-  }
-
-  */
-
-
-
-
-.home {
-    display:contents;
-    flex-wrap: wrap ;
-    
-    /*display: flex;*/
+.container {
+   
 }
-.in-contents {
-    content: 1;
-    min-width: 600px;
-}
-.in-flex:first-child {
-    flex: 2;
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;   
 }
