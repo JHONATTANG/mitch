@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/videos.css">
     <link rel="stylesheet" href="assets/css/aboutme.css">
     <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
     
 
     <!-- Fonts -->
@@ -31,7 +32,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <!-- Script -->
-    <script src="js/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
     <video id="background-video" autoplay loop muted>
@@ -41,28 +43,28 @@
     <header class="container-navbar">
         <nav class="navbar container">
             <div></div>
-            <a href="/section/home" onclick="loadSection(event,'home')" class="navbar__logo">
+            <a onclick="loadSection(event,'home')" class="navbar__logo">
                 <img src="assets/page/LOG_05_PNG_W.png" alt="MITCH Digital">
                 <span>MITCHDigital</span>
             </a>
             <div class="navbar__nav">
                 <ul class="nav__list">
-                    <li class="nav__link"><a class="menu-link" href="/section/home" onclick="loadSection(event,'home')"  data-link-alt="Inicio"><span>Inicio</span></a></li>
-                    <li class="nav__link"><a class="menu-link" href="/section/home" onclick="loadSection(event,'home')"  data-link-alt="Servicios"><span>Servicios</span></a></li>
-                    <li class="nav__link"><a class="menu-link" href="/section/blog" onclick="loadSection(event,'blog')"  data-link-alt="Blog"><span>Blog</span></a></li>
-                    <li class="nav__link"><a class="menu-link" href="/section/aboutme" onclick="loadSection(event,'aboutme')"  data-link-alt="Acerca de mi"><span>Acerca de mi</span></a></li>
-                    <li class="nav__link"><a class="menu-link" href="/section/contacto" onclick="loadSection(event,'Contacto')"  data-link-alt="Contacto"><span>Contacto</span></a></li>
+                    <li class="nav__link"><a class="menu-link" onclick="loadSection(event,'home')"  data-link-alt="Inicio"><span>Inicio</span></a></li>
+                    <li class="nav__link"><a class="menu-link" onclick="loadSection(event,'home')"  data-link-alt="Servicios"><span>Servicios</span></a></li>
+                    <li class="nav__link"><a class="menu-link" onclick="loadSection(event,'blog')"  data-link-alt="Blog"><span>Blog</span></a></li>
+                    <li class="nav__link"><a class="menu-link" onclick="loadSection(event,'aboutme')"  data-link-alt="Acerca de mi"><span>Acerca de mi</span></a></li>
+                    <li class="nav__link"><a class="menu-link" onclick="loadSection(event,'Contacto')"  data-link-alt="Contacto"><span>Contacto</span></a></li>
                 </ul>
                 <button class="navbar__toogle-btn" type="button">
                     <img src="assets/page/menu-principal-m.png" alt="Menú">
                 </button>
                 <div class="navbar__list-mobile">
                     <ul class="nav__list-mobile">
-                        <li class="nav__link-mobile"><a class="menu-link-mobile" href="/section/home" onclick="loadSection(event,'home')"  data-link-alt="Inicio"><span>Inicio</span></a></li>
-                        <li class="nav__link-mobile"><a class="menu-link-mobile" href="/section/home" onclick="loadSection(event,'home')"  data-link-alt="Servicios"><span>Servicios</span></a></li>
-                        <li class="nav__link-mobile"><a class="menu-link-mobile" href="/section/blog" onclick="loadSection(event,'blog')"  data-link-alt="Blog"><span>Blog</span></a></li>
-                        <li class="nav__link-mobile"><a class="menu-link-mobile" href="/section/aboutme" onclick="loadSection(event,'aboutme')"  data-link-alt="Acerca de mi"><span>Acerca de mi</span></a></li>
-                        <li class="nav__link-mobile"><a class="menu-link-mobile" href="/section/contacto" onclick="loadSection(event,'contacto')"  data-link-alt="Contacto"><span>Contacto</span></a></li>
+                        <li class="nav__link-mobile"><a class="menu-link-mobile" onclick="loadSection(event,'home')"  data-link-alt="Inicio"><span>Inicio</span></a></li>
+                        <li class="nav__link-mobile"><a class="menu-link-mobile" onclick="loadSection(event,'home')"  data-link-alt="Servicios"><span>Servicios</span></a></li>
+                        <li class="nav__link-mobile"><a class="menu-link-mobile" onclick="loadSection(event,'blog')"  data-link-alt="Blog"><span>Blog</span></a></li>
+                        <li class="nav__link-mobile"><a class="menu-link-mobile" onclick="loadSection(event,'aboutme')"  data-link-alt="Acerca de mi"><span>Acerca de mi</span></a></li>
+                        <li class="nav__link-mobile"><a class="menu-link-mobile" onclick="loadSection(event,'contacto')"  data-link-alt="Contacto"><span>Contacto</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -74,22 +76,22 @@
         <br>
         <div class="acordeon">
             <div class = "acordeon-item">
-                <a id= "acordeon-link-logos" href="/section/logotipos"  onclick="loadSection(event,'logotipos')">
+                <a id= "acordeon-link-logos" onclick="loadSection(event,'logotipos')">
                     <h1>LOGOTIPOS</h1>
                 </a>
             </div>
             <div class = "acordeon-item">
-                <a id= "acordeon-link-dev"href="/section/desarrollo"  onclick="loadSection(event,'desarrollo')">
+                <a id= "acordeon-link-dev" onclick="loadSection(event,'desarrollo')">
                     <h1>DISEÑO WEB</h1>
                 </a>
             </div>
             <div class = "acordeon-item">
-                <a id= "acordeon-link-edit" href="/section/produccion"  onclick="loadSection(event,'produccion')">
+                <a id= "acordeon-link-edit" onclick="loadSection(event,'produccion')">
                     <h1>EDICIÓN Y PRODUCCIÓN</h1>
                 </a>
             </div>
             <div class = "acordeon-item">
-                <a id= "acordeon-link-title" href="/section/videos"  onclick="loadSection(event,'videos')">
+                <a id= "acordeon-link-title" onclick="loadSection(event,'videos')">
                     <h1>TÍTULOS</h1>
                 </a>
             </div>
@@ -99,7 +101,7 @@
     
     <footer class="footer">
         <section class="container-footer">
-            <a href="/section/home" class="footer__logo" onclick="loadSection(event,'home')">
+            <a class="footer__logo" onclick="loadSection(event,'home')">
                 <img src="assets/page/LOG_05_PNG_W.png" alt="logo empresa">
             </a>
             <div class="footer__info">
