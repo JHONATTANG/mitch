@@ -1,0 +1,196 @@
+@import url(style.css);
+
+
+/** FOOTER **/
+
+.footer {
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+}
+
+
+/** LOGO **/
+
+.footer__logo {
+    margin: 0 135px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    
+}
+
+.footer__logo img {
+    height: 170px;
+}
+
+
+/** INFO **/
+
+.footer__info{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 9pt;
+    color:white;
+    margin-right: 60px;
+}
+
+
+/** REDES **/
+
+.footer-icon{
+    margin: 0 135px;
+    position: relative;
+    display: flex;
+    align-items: end;
+    margin-top: 120px;
+    cursor: pointer;
+
+}
+
+.footer-icon a{
+    margin-right: 10px;
+}
+
+.footer-icon a img{
+    height: 30px;
+}
+
+
+/** MOBILE **/
+@media only screen and (min-width: 901px) and (max-width: 1192px){
+
+    .footer-icon{
+        flex-direction: column;
+        margin-top: 0;
+        margin: 0 20px;
+    }
+    .footer__logo {
+        margin: 0 50px;
+        
+    }
+}
+
+@media only screen and (min-width: 431px) and (max-width: 900px){
+    .footer__logo {
+        margin: 0 10px;
+        
+    }
+
+    .footer__logo img {
+        height: 90px;
+    }
+    .footer-icon{
+        flex-direction: column;
+        margin-top: 0;
+        margin: 0 20px;
+    }
+    .footer-icon a{
+        align-items: end;
+        justify-content: end;
+        margin-right: 0;
+        margin-top: 10px;
+    } 
+}
+@media only screen and (max-width: 430px){
+    .footer-icon{
+        flex-direction: column;
+        margin-top: 0;
+        margin: 0 10px;
+    }
+    .footer__logo {
+        display: none;
+    }
+
+    .footer__info{
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 8pt;
+        color:white;
+        margin-right: 10px;
+    }
+
+    .footer-icon a{
+        align-items: end;
+        justify-content: end;
+        margin-right: 0;
+        margin-top: 10px;
+    } 
+}
+
+/**
+/** FOOTER **
+
+.footer {
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 30px;
+}
+
+
+/** LOGO **
+
+.footer__logo {
+    margin: 0 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    
+}
+
+.footer__logo img {
+    height: 170px;
+}
+
+
+/** INFO **
+
+.footer__info{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 9pt;
+    color:white;
+    margin-right: 60px;
+}
+
+
+/** REDES **
+
+.footer-icon{
+    margin: 0 135px;
+    position: relative;
+    display: flex;
+    align-items: end;
+    margin-top: 120px;
+    cursor: pointer;
+
+}
+
+.footer-icon a{
+    margin-right: 10px;
+}
+
+.footer-icon a img{
+    height: 30px;
+}
+
+}**/

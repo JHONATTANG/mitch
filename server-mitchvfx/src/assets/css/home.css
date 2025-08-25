@@ -1,0 +1,274 @@
+
+@import url(style.css);
+
+
+/****   MENU ACORDEON   ****/
+
+
+#acordeon-link-logos{
+    text-decoration: none;
+    /*background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgb(121, 8, 191, 0.3)),*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgb(121, 8, 191,0.8)),
+    url("../page/Logotipos/1_Logotipos.gif");
+    position: relative;
+    background-size: cover;
+}
+#acordeon-link-dev{
+    text-decoration: none;
+    /*background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgb(121, 8, 191, 0.3)),*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgb(121, 8, 191,0.8)),
+    url("../page/Dev/Almenda_Mesa_de_trabajo.gif");
+    position: relative;
+    background-size: cover;
+}
+#acordeon-link-edit{
+    text-decoration: none;
+    /*background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgb(121, 8, 191, 0.3)),*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgb(121, 8, 191,0.8)),
+    url("../page/Produccion/VFX_Compositing_Showreel_2024.gif");
+    position: relative;
+    background-size: cover;
+}
+#acordeon-link-title{
+    text-decoration: none;
+    /*background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgb(121, 8, 191, 0.3)),*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgb(121, 8, 191,0.8)),
+    url("../page/videos/RENDER_HD_1920x1080.gif");
+    position: relative;
+    background-size: cover;
+}
+
+
+
+#acordeon-link img{
+    object-fit: contain;
+    object-position: -100% 0;
+    height: 100%;
+}
+
+.acordeon h1{
+    text-shadow: 0 0 4px #000;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    font-size:90pt;
+    left: 20px;
+    writing-mode:vertical-rl;
+    /*writing-mode:vertical-rl ;*/
+    
+}
+
+
+
+.acordeon {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 800px;
+    padding: 0;
+}
+
+.acordeon div a{
+    height: 800px;
+    width: 100%;
+    appearance: none;
+}
+
+.acordeon div{
+    width: 120px;
+    display: flex;
+    
+    
+    width:100%;
+    height: 800px;
+    margin: 0 5px;
+    
+    
+    transition: width 1s ease,  background-color 1s ease; 
+    
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.acordeon-item:nth-child(1) { background-color: #8FD9EF33; }
+.acordeon-item:nth-child(2) { background-color: #8FD9EF33; }
+.acordeon-item:nth-child(3) { background-color: #8FD9EF33; }
+.acordeon-item:nth-child(4) { background-color: #8FD9EF33; }
+.acordeon-item:nth-child(5) { background-color: #8FD9EF33; }
+
+
+
+
+#acordeon-link-logos:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(121, 8, 191,0)),
+    url("../page/Logotipos/1_Logotipos.gif");
+}
+#acordeon-link-dev:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(121, 8, 191,0)),
+    url("../page/Dev/Almenda_Mesa_de_trabajo.gif");
+}
+#acordeon-link-edit:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(121, 8, 191,0)),
+    url("../page/Produccion/VFX_Compositing_Showreel_2024.gif");
+}
+#acordeon-link-title:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(121, 8, 191,0)),
+    url("../page/videos/RENDER_HD_1920x1080.gif");
+}
+
+
+
+.acordeon-item:hover {
+    width:250%;
+    
+}
+
+
+.acordeon-h1 h1{
+    position: absolute;
+    margin-top:30px;
+}
+
+#tit{
+    color: white;
+    font-weight: bold;
+    opacity: 1;
+    position: absolute;
+}
+
+.acordeon-item a img {
+    object-fit: cover;
+    display: none;
+}
+
+@media only screen and (max-width: 826px){
+    /****/
+    #acordeon-link-logos{
+        text-decoration: none;
+        /*background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgb(121, 8, 191, 0.3)),*/
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgb(121, 8, 191,0.8)),
+        url("../page/Logotipos/1_Logotipos.gif");
+        position: relative;
+        background-size: cover;
+    }
+    #acordeon-link-dev{
+        text-decoration: none;
+        /*background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgb(121, 8, 191, 0.3)),*/
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgb(121, 8, 191,0.8)),
+        url("../page/Dev/Almenda_Mesa_de_trabajo.gif");
+        position: relative;
+        background-size: cover;
+        margin: 0;
+    }
+    #acordeon-link-edit{
+        text-decoration: none;
+        /*background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgb(121, 8, 191, 0.3)),*/
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgb(121, 8, 191,0.8)),
+        url("../page/Produccion/VFX_Compositing_Showreel_2024.gif");
+        position: relative;
+        background-size: cover;
+    }
+    #acordeon-link-title{
+        text-decoration: none;
+        /*background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgb(121, 8, 191, 0.3)),*/
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgb(121, 8, 191,0.8)),
+        url("../page/videos/RENDER_HD_1920x1080.gif");
+        position: relative;
+        background-size: cover;
+    }
+    
+    
+    
+    .acordeon h1{
+        text-shadow: 0 0 4px #000;
+        color: white;
+        font-weight: bold;
+        font-size:50pt;
+        writing-mode:horizontal-tb;
+        margin:0;
+        width: auto;
+        position: absolute;
+        /*writing-mode:vertical-rl ;*/
+        
+    }
+    
+    
+    
+    .acordeon {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;    
+        align-items: center;
+        position: relative;
+        
+    }
+    
+    .acordeon div a{
+        height: 160px;
+        width: 100%;
+        appearance: none;
+    }
+    
+    .acordeon div{
+        width: auto;
+        display: flex;
+        
+        
+        width:100%;
+        height: 160px;
+        margin: 0 5px;
+        
+        
+        transition: height 1s ease,  background-color 1s ease; 
+        
+        cursor: pointer;
+        background-color: #ddd;
+    }
+    
+    .acordeon-item:nth-child(1) { background-color: #8FD9EF33; }
+    .acordeon-item:nth-child(2) { background-color: #8FD9EF33; }
+    .acordeon-item:nth-child(3) { background-color: #8FD9EF33; }
+    .acordeon-item:nth-child(4) { background-color: #8FD9EF33; }
+    .acordeon-item:nth-child(5) { background-color: #8FD9EF33; }
+    
+    
+    
+    
+    #acordeon-link-logos:hover{
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(121, 8, 191,0)),
+        url("../page/Logotipos/1_Logotipos.gif");
+    }
+    #acordeon-link-dev:hover{
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(121, 8, 191,0)),
+        url("../page/Dev/Almenda_Mesa_de_trabajo.gif");
+    }
+    #acordeon-link-edit:hover{
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(121, 8, 191,0)),
+        url("../page/Produccion/VFX_Compositing_Showreel_2024.gif");
+    }
+    #acordeon-link-title:hover{
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(121, 8, 191,0)),
+        url("../page/videos/RENDER_HD_1920x1080.gif");
+    }
+    
+    
+    .acordeon div:hover{
+        height: 450px;
+        width:100%;
+    }
+
+    .acordeon div a:hover {
+        height: 450px;
+        width:100%;
+        position: absolute;
+    }
+
+}
+
+
+@media only screen and (max-width: 462px){
+    .acordeon h1{
+        font-size:30pt;
+        
+    }
+}

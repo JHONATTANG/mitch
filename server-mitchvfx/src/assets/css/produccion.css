@@ -1,0 +1,263 @@
+
+@import url(style.css);
+
+
+
+.produccion {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.produccion-imagen{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.produccion-contenedor-img{
+    background-color: aliceblue;
+    width: 40%;
+    height: 50%;
+    position: relative;
+    margin: 20 50px;
+}
+
+.produccion-contenedor-img img{
+    height: 60px;
+    margin-right: 20px;
+    
+}
+
+.produccion-info{
+    background-color: #5623b633;
+    display:block;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.container-imagen-prod {
+  max-width: 900px;
+  padding: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1); 
+  
+}
+.lightbox-gallery-prod {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-imagen-prod video{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /*height: 250px;*/
+    padding: 5px;
+  }
+
+
+.line-prod{
+  height: 4px;
+  background: linear-gradient(90deg, rgba(14,165,234,1) 0%, rgba(143,217,239,1) 50%, rgba(143,217,239,0) 100%);
+}
+.produccion-subtitulo{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #ffffff;
+}
+.produccion-parrafo{
+  font-family: "Roboto", sans-serif;
+  
+  color: #ffffff;
+}
+
+.titulo-produccion {
+  position: relative;
+  float: left;
+  margin-top: 15px;
+  margin-left: 125px;
+}.pie-produccion {
+  position: relative;
+  float: right;
+  margin-bottom: 15px;
+  margin-right: 40px;
+}
+
+.titulo-produccion h2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 32pt;
+  color: #6666CC;
+}.pie-produccion h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 50pt;
+  color: #6666CC;
+  opacity: 0.35;
+}
+
+
+
+.btn-produccion a button{
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 20pt;
+  background: linear-gradient(90deg, rgba(0, 31, 133, 0.6) 0%, rgba(143,217,239,0.6) 50%, rgba(143,217,239,0) 100%);
+  border-color:transparent;
+  border-radius: 40px;
+}
+
+
+.btn-produccion:hover a button{
+  background-color: rgba(255, 255, 255, 1);
+  transition: 1s;
+}
+
+
+
+.top-prod{
+  height: 100px;
+  width: 100px;
+  background-color: #ffffff;
+  position: absolute;
+  float: left;
+  margin-left: 34%;
+  border-radius: 100%;
+  opacity: 0;
+  padding: 5px;
+}.bottom-prod {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  float: left;
+  margin-left: 34%;
+  border-radius: 100%;
+  opacity: 1;
+}
+
+.top-prod:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+
+
+.img7 {
+  position: relative;
+}.img8 {
+  position: absolute;
+  opacity: 0;
+}
+.img8:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:665px) and (max-width: 1490px){
+  .produccion {
+      flex-direction: column;
+      padding: 10px;
+      width: 100%;
+      display: flex;
+  }
+
+  .produccion-info{
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: auto;
+      margin: 0 20px;
+  }
+
+  .top-prod {
+      float: right;
+      margin-left: 70%;
+  }
+  .bottom-prod {
+      float: right;
+      margin-left: 70%;
+  }
+  .titulo-produccion {
+      position: relative;
+      float: left;
+      margin: 0 200px;
+      margin-top: 15px;
+      
+  }
+  .container-imagen-prod img{
+    height: 350px;
+}
+}
+
+
+
+
+@media only screen and (max-width: 664px){
+  .produccion {
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.produccion-info{
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin: 0 20px;
+}
+
+.top-prod {
+    float: right;
+    margin-left: 60%;
+    height: 60px;
+    width: 60px;
+}
+.bottom-prod {
+    float: right;
+    margin-left: 60%;
+    height: 60px;
+    width: 60px;
+}
+.titulo-produccion {
+    position: relative;
+    float: left;
+    margin: 0 50px;
+    margin-top: 15px;  
+    font-size: 22pt; 
+}
+.pie-produccion h1 {
+    font-size: 26pt; 
+}
+
+.container-imagen-prod img{
+    height: 240px;
+}
+}
